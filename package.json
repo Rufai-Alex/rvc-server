@@ -4,8 +4,8 @@
   "description": "This is the backend code for the ForkBook application, you can find the latest deploy here: forkbook.co",
   "main": "index.js",
   "scripts": {
-    "test": "cross-env DB_ENV=testing jest --watch --verbose",
-    "coverage": "cross-env DB_ENV=testing jest --coverage",
+    "test": "cross-env DATABASE_URL=testing jest --watch --verbose",
+    "coverage": "cross-env DATABASE_URL=testing jest --coverage",
     "start": "node index.js",
     "server": "nodemon index.js",
     "lint": "eslint .",

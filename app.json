@@ -1,0 +1,16 @@
+{
+  "addons": [],
+  "buildpacks": [],
+  "env": {
+    "NODE_ENV": {
+      "required": true
+    },
+    "DATABASE_URL": {
+      "required": true
+    }
+  },
+  "formation": {},
+  "name": "rvc-server",
+  "scripts": {},
+  "stack": "heroku-18"
+}
